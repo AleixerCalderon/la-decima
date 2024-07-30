@@ -12,7 +12,7 @@ function Header() {
                     <li>Productos</li>
                     <li>Ofertas</li>
                     <li>
-                        <img className="carrito" src="carrito.svg" alt="Carrito" />
+                        <a href="#"><img className="carrito" src="carrito2.svg" alt="Carrito" /></a>
                     </li>
                 </ul>
                 
