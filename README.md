@@ -81,7 +81,7 @@ Los proyectos serán evaluados según los siguientes criterios:
 
 --------------------
 ## Desarrollo 
-![Mok](Mok.png)
+![Mok](/Z-img/Mok.png)
 
 ===========================================================================
 
