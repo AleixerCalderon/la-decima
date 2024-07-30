@@ -80,6 +80,9 @@ Los proyectos serán evaluados según los siguientes criterios:
 
 
 --------------------
+## Desarrollo 
+![Mok](/Z-img/Mok.png)
+
 ===========================================================================
 
 Runs the app in the development mode.\
