@@ -12,6 +12,7 @@
 }
 .header nav {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
 }
 .header nav ul {
@@ -37,3 +38,22 @@
     border-radius: 10px;
 }
 
+//Media Queries
+
+@media only screen and (max-width: 768px) {
+    .header {
+        grid-template-columns: 100% 100%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .header {
+        grid-template-columns: 100%;
+    }
+    .header nav{
+        flex-direction: column;
+    }
+    .header nav ul{
+        flex-direction: column;
+    }
+}
