@@ -5,10 +5,14 @@
  display: grid;
  grid-template-columns: 20% 80%;
  font-family: Arial, Helvetica, sans-serif;
+ font-size: 2rem;
 }
 
 .header .logo {
-    font-size: 2rem;
+    
+}
+.logo img{
+    max-width: 200px;
 }
 .header nav {
     display: flex;
@@ -25,10 +29,6 @@
     color: #333;
     font-weight: 700;
 }
-.logo {
-    width: 200px;
-    height: auto;
-}
 
 .carrito {
     background-color: #333;
@@ -38,17 +38,28 @@
     border-radius: 10px;
 }
 
-//Media Queries
+/* Media Queries*/
 
+
+/*Inicio estilos para tablet*/
 @media only screen and (max-width: 768px) {
     .header {
-        grid-template-columns: 100% 100%;
+        grid-template-columns: 100%;
+        font-size: 1.5rem;
+    }
+    .header nav{
+        justify-content: center;
+
     }
 }
+/*Fin estilos para tablet*/
 
+/*Inicio estilos para móviles*/
 @media only screen and (max-width: 600px) {
     .header {
         grid-template-columns: 100%;
+        text-align: center;
+        font-size: 1.2rem;
     }
     .header nav{
         flex-direction: column;
@@ -56,4 +67,8 @@
     .header nav ul{
         flex-direction: column;
     }
+    .logo img{
+        width: 60%;
 }
+}
+/*Fin estilos para tablet*/

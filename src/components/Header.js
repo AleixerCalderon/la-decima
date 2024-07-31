@@ -4,7 +4,7 @@ import './header.css';
 function Header() {
     return (
         <header className="header">
-            <img className="logo" src="logo.webp" alt="Logo" />
+            <div className="logo"><img src="logo.webp" alt="Logo" /></div>
             <nav>               
                 <ul>
                     <li>Inicio</li>
