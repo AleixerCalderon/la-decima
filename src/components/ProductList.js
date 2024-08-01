@@ -1,6 +1,6 @@
 import React from "react";
 import ProductItem from './ProductItem';
-
+import Banner from './Banner';
 import './ProductList.css'
 
 const products = [
@@ -11,11 +11,15 @@ const products = [
     {id:5, nameItem:'Sneakers', price:100000, image: './sc.png'}
 ]
 
-function ProductList() {
+function ProductList({onViewChange}) {
     return (
 <div className="product-list">
+<Banner/>
 {products.map(product => (
-<ProductItem key={product.id} product={product} />
+<ProductItem key={product.id} 
+product={product} 
+onViewChange={onViewChange}
+/>
 ))}
 </div>
     );
