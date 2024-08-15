@@ -20,7 +20,7 @@ setSelectedProduct(product);
 
   const handleAddToCart = (product) => {
      setCart([...cart, product]);
-   alert(`${product.nameItem} ha sido añadido al carrito`);
+   alert(`${product.nameItem} ha sido añadido al carrito 2`);
   };
 
   const renderView = () =>{
