@@ -5,7 +5,7 @@
  display: grid;
  grid-template-columns: 20% 80%;
  font-family: Arial, Helvetica, sans-serif;
- font-size: 2rem;
+ font-size: 1.5rem;
 }
 
 .header .logo {
@@ -27,11 +27,11 @@
 }
 .header nav ul li{
     color: #333;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .carrito {
-    background-color: #333;
+    background-color: #d21b1b;
     padding: 10px;
     width: 30px;
     height: auto;
